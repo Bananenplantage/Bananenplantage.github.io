@@ -56,10 +56,12 @@ body { font-family: sans-serif; }
 }
 
 .card__face--front {
-  background: crimson;
+  background-image: url("images/back.png");
+  
 }
 
 .card__face--back {
-  background: slateblue;
+  background: crimson;
+  /* background: slateblue; */
   transform: rotateY(180deg);
 }
