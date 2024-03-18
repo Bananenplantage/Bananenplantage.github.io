@@ -2,10 +2,8 @@
   display: grid;
   grid-template-columns: repeat(6, 200px);
   grid-gap: 1em;
-  
   margin: auto;
   width: 1280px;
-  border: 3px solid green;
   padding: 10px;
 }
 
@@ -57,11 +55,10 @@ body { font-family: sans-serif; }
 
 .card__face--front {
   background-image: url("images/back.png");
-  
 }
 
 .card__face--back {
-  background: crimson;
+  /* background: blue; */
   /* background: slateblue; */
   transform: rotateY(180deg);
 }
