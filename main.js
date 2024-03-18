@@ -81,7 +81,7 @@ function create_cards(){
               }
               else{
                 game_over = true;
-                document.querySelector("#countdown").innerHTML = "GAME OVER! You took: "+ time + " Seconds";
+                document.querySelector("#countdown").innerHTML = "GAME OVER! It took you  <b>"+ time + "</b> Seconds";
               }
               
             }
